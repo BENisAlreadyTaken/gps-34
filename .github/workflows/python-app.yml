@@ -43,3 +43,5 @@ jobs:
         coverage run -m pytest test.py
         coverage report -m
         coverage html
+        echo htmlcov/index.html
+        
